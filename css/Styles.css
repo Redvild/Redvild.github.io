@@ -137,7 +137,7 @@ h2 {
 /* Event Table */
 table {
 	width: 100%;
-	border-collapse: collapse;
+	border-collapse: separate;
 	border-spacing: 0;
 }
 table tr:nth-child(even) td {
