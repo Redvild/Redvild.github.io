@@ -78,7 +78,7 @@ h2 {
 	display: inline-flex;
 	flex-direction: column;
 	text-align: center;
-	margin: auto -7px;
+	margin: auto -1%;
 	line-height: 1;
 }
 .dividedDate p {
