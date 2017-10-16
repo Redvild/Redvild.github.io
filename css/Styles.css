@@ -295,7 +295,7 @@ table tr:last-child td:last-child {
 /* Medium size media*/
 @media all and (max-width:991px) and (min-width:768px) {
 	.days, .hours, .minutes, .seconds {
-	margin: auto -10px;
+	margin: auto -15px;
 }
 	.green_square {
 		width:200px;
