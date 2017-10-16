@@ -142,15 +142,25 @@ table {
 }
 table tr:nth-child(even) td {
 	background-color: #373737;
+	border-top:1px solid #373737;
+}
+table tr:nth-child(4) td:not(:last-child) {
+	border-right: 1px solid #373737;
 }
 table tr:nth-child(odd) td {
 	background-color: #4b4d4f;
+	border-top:1px solid #4b4d4f;
+	border-bottom: 1px solid #4b4d4f;
 }
 th {
 	background-color:#a3cc40;
 	font-size: 1.2em;
 	font-weight: bold;
 	padding: 1em;
+	border-bottom: 1px solid #a3cc40;
+}
+th:not(:nth-child(2)) {
+	border-right: 1px solid #a3cc40;
 }
 thead {
 	background-color: transparent;
