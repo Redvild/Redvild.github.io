@@ -137,7 +137,7 @@ h2 {
 /* Event Table */
 table {
 	width: 100%;
-	border-collapse: separate;
+	border-collapse: collapse;
 	border-spacing: 0;
 }
 table tr:nth-child(even) td {
@@ -161,6 +161,7 @@ th {
 }
 th:not(:nth-child(2)) {
 	border-right: 1px solid #a3cc40;
+	border-left: 1px solid #a3cc40;
 }
 thead {
 	background-color: transparent;
