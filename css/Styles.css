@@ -322,6 +322,9 @@ table tr:last-child td:last-child {
 #holder_photo_row_2 {
 	height:210px;
 }
+#event_section .form-group {
+	margin-top:-130px;
+}
 }
 /* Small size media*/
 @media all and (max-width:767px) and (min-width:576px) {
