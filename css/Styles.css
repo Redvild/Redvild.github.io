@@ -134,6 +134,9 @@ h2 {
 	color:black;
 }
 /* SECTION Event Details */
+#event_details_section {
+	clear:both;
+}
 /* Event Table */
 table {
 	width: 100%;
