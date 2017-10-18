@@ -352,7 +352,7 @@
  <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
 	 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 	 <script>
-    $("#form_button").submit(function() { 
+    $("#form_button").click(function() { 
             var form_data = $(this).serialize();
             $.ajax({
             type: "POST",
