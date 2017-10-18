@@ -16,6 +16,9 @@ body {
 .bg-white {
 	background-color: white;
 }
+.bg-modal {
+	background-color:rgba(119,122,126,0.70);
+}
 .transform {
 	-moz-transform: skewY(-5deg);
 	-webkit-transform: skewY(-5deg);
