@@ -1,6 +1,6 @@
 <?
 if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['phone_number'])&&$_POST['phone_number']!="")){
-        $to = 'redvild@gmail.com';
+        $to = 'hexahedron@yandex.ru';
         $subject = 'Envato User';
         $message = '
                 <html>
