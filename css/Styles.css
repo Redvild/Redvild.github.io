@@ -224,7 +224,17 @@ table tr:last-child td:first-child {
 table tr:last-child td:last-child {
 	border-bottom-right-radius: 10px;
 }
-
+table th:first-child {border-right: 1px solid #a3cc40;}
+table th:last-child {border-left: 1px solid #a3cc40;}
+tr:first-child td, tr:nth-child(2) td
+{border-bottom:1px solid #4b4d4f;}
+tr:nth-child(3) td {border-top:1px solid #4b4d4f;border-bottom:1px solid #4b4d4f;}
+tr:first-child td:not(:last-child), tr:nth-child(3) td:not(:last-child){border-right:1px solid #4b4d4f;}
+tr:first-child td:not(:first-child), tr:nth-child(3) td:not(:first-child){border-left:1px solid #4b4d4f;}
+tr:nth-child(2) td, tr:last-child{border-top:1px solid #373737;}
+tr:nth-child(2) td {border-bottom:1px solid #373737;}
+tr:nth-child(2) td:not(:last-child), tr:last-child(3) td:not(:last-child){border-right:1px solid #373737;}
+tr:nth-child(2) td:not(:first-child), tr:last-child td:not(:first-child){border-left:1px solid #373737;}
 /* SECTION Elite Rewards */
 .button {
 	padding: auto;
