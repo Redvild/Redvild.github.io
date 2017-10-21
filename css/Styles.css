@@ -169,6 +169,13 @@ table {
 	width: 100%;
 	margin: auto;
 	border-collapse: collapse;
+	padding: 0;
+	border: 0;
+}
+table tr, td {
+	border:0;
+	margin: 0;
+	padding: 0;
 }
 table tr:nth-child(even) td {
 	background-color: #373737;
