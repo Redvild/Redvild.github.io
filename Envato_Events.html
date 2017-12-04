@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Envato Events</title>
+<link rel="stylesheet" href="css/Styles.css">
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/iziModal.min.css">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+<div class="modal" id="sectionElite_modal">
+	<div class="sectionElite_modalBody iziModal-content">
+		<form class="sectionElite_modalForm" method="post" action="php/send_email.php">
+			<input type="email" class="form-control" required placeholder="Enter your email" name="email">
+			<button type="submit" class="button sectionElite_modalSubmit buttonSubmit buttonLinkText button_themeSuccess">Send</button>
+		</form>
+		</div>
+</div>
+<div class="modal" id="sectionSponsors_modal">
+	<div class="sectionSponsors_modalBody iziModal-content">
+		<form class="sectionSponsors_modalForm" method="post" action="php/send_form.php">
+			 <div class="form-group sectionSponsors_formGroup">
+      <label class="sectionSponsors_modalLabel">Firstname</label>
+      <input type="text" class="form-control" required placeholder="Enter your firstname" pattern="^[a-zA-Z0-9А-Яа-яЁё]{1,18}$" name="name">
+			</div>
+			<div class="form-group sectionSponsors_formGroup">
+      <label class="sectionSponsors_modalLabel">Lastname</label>
+      	<input type="text" class="form-control" required placeholder="Enter your lastname" pattern="^[a-zA-Z0-9А-Яа-яЁё]{1,18}$" name="lastname">
+			</div>
+			<div class="form-group sectionSponsors_formGroup">
+      <label class="sectionSponsors_modalLabel">Phone</label>
+      <input type="tel" class="form-control" required placeholder="Enter your phone number" pattern="^\([0-9]{3}\)-[0-9]{3}-[0-9]{2}-[0-9]{2}" name="phone_number">
+			</div>
+			<div class="form-group sectionSponsors_formGroup">
+      <label class="sectionSponsors_modalLabel">Email</label>
+      	<input type="email" class="form-control" required placeholder="Enter your email" name="email">
+			</div>
+			<button type="submit" class="button sectionSponsors_modalSubmit buttonSubmit buttonLinkText button_themeSuccess">Sponsor Us!</button>
+		</form>
+		</div>
+	</div>
+	<div class="modal" id="sectionEvents_modal">
+	<div class="sectionEvents_modalBody iziModal-content">
+  <div class="swiper-container">
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/photo1.jpg"></div>
+      <div class="swiper-slide"><img src="images/photo2.jpg"></div>
+      <div class="swiper-slide"><img src="images/photo3.jpg"></div>
+      <div class="swiper-slide"><img src="images/photo4.jpg"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+	</div>
+	</div>
+<div class="modal iziModal" id="sectionContact_modalMap">
+	<div class="sectionContact_modalBody iziModal-content">
+	<iframe class="Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6633.447670742435!2d150.79919508379166!3d-33.76780157450565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129a93eb235a59%3A0x738eeca4c9d42e55!2zNDIwLzIgTWVsYm91cm5lIFN0LCBPeGxleSBQYXJrIE5TVyAyNzYwLCDQkNCy0YHRgtGA0LDQu9C40Y8!5e0!3m2!1sru!2sru!4v1508330058200"></iframe>
+	</div>
+</div>
+<div class="header" id="Header">
+	<div class="header_inner">
+		<div class="header_menu flex_row">
+			<div class="header_logo"></div>
+			<div class="header_nav">
+				<ul class="header_list">
+					<li class="header_item"><a class="header_link" href="#Event_Details">event details</a></li>
+					<li class="header_item"><a class="header_link" href="#Speakers">speakers</a></li>
+					<li class="header_item"><a class="header_link" href="#Sponsors">sponsors</a></li>
+					<li class="header_item"><a class="header_link" href="#Past_Events">past events</a></li>
+					<li class="header_item"><a class="header_link" href="#Contact">contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="header_timer flex_row">
+		<div class="header_timerItem header_timerItem-days"></div>
+		<div class="header_timerItem header_timerDivider">
+			<p>:</p>
+		</div>
+		<div class="header_timerItem header_timerItem-hours"></div>
+		<div class="header_timerItem header_timerDivider">
+			<p>:</p>
+		</div>
+		<div class="header_timerItem header_timerItem-minutes"></div>
+		<div class="header_timerItem header_timerDivider">
+			<p>:</p>
+		</div>
+		<div class="header_timerItem header_timerItem-seconds"></div></div>
+		<div class="header_icons">
+			<img src="images/icons.png" alt="Header Icons">
+		</div>
+	</div>
+</div>
+
+<div class="section sectionWelcome section_transform">
+<div class="sectionWelcome_content section_transformNot">
+<div class="sectionWelcome_header flex_row">
+	<div class="sectionWelcome_article section_article">
+		<h1>Welcome!</h1>
+		<p>The biggest envato community meetup in Bangladesh is happening right now! And you can be a part of it too...</p>
+		<p>Get together with members of the Envato community to talk shop, trade war stories, make new friends and see the faces behind the avatars. Whether you’re an author on Envato Market, a client on Envato Studio, or a learner on Tuts+, you are invited!</p>
+		<p>It doesn’t matter as long as you have the motivation and interest to work at the envato and bring cookies to our event. Just kidding, but we don’t mind having more cookies! ;)<br>Head over and fill up the sign up form here so that we can keep track of our guests. Don’t forget to register on our nvite page here too!</p>
+	</div>
+	<form class="sectionWelcome_formSign" method="post" action="php/send.php">
+		<h3 class="sectionWelcome_formHeader">Sign up for our event</h3>
+<input type="email" class="sectionWelcome_formControl form-control" required placeholder="Enter your email" name="email">
+		<input type="text" class="sectionWelcome_formControl form-control" required placeholder="Enter your name" pattern="^[a-zA-Z0-9А-Яа-яЁё]{1,18}$" name="name">
+		<input type="tel" class="sectionWelcome_formControl form-control" required placeholder="Phone number" pattern="^\([0-9]{3}\)-[0-9]{3}-[0-9]{2}-[0-9]{2}" name="phone_number">
+		<input type="text" class="sectionWelcome_formControl form-control" required placeholder="Envato username" pattern="^[a-zA-Z0-9А-Яа-яЁё]{3,18}$" name="username">
+		<button type="submit" class="sectionWelcome_formSubmit button buttonSubmit button_themeSuccess buttonLinkText">Let me in!</button>
+		<p class="sectionWelcome_formText">Hurry up, Limited seats availble<br>*we will never spam your email</p>
+	</form>
+	</div>
+	<div class="sectionWelcome_box flex_row" id="Event_Details">
+		<div class="sectionWelcome_item">
+			<img src="images/Community.svg" alt="Community" class="sectionWelcome_image">
+			<h2>Community</h2>
+			<p>Meet the Community you’ve always talked with, in real life! This meetup will be all about authors engaging each other with interesting coversation and topics. We will have loads of fun.</p>
+		</div>
+		<div class="sectionWelcome_item">
+			<img src="images/Talk Shop.svg" alt="Talk Shop" class="sectionWelcome_image">
+			<h2>Talk Shop</h2>
+			<p>In this meetup you will get to know the marketplaces better, because that’s why were all here for right? Learn a few tips and tricks from experienced authors from all over the country.</p>
+		</div>
+		<div class="sectionWelcome_item">
+			<img src="images/War Stories.svg" alt="War Stories" class="sectionWelcome_image">
+			<h2>War Stories</h2>
+			<p>Gather round fellow authors!<br>Hear the stories of success from your favorite authors and learn how they we able to tackle their problems and become successful.</p>
+		</div>
+	</div>
+	<div class="sectionWelcome_tableWrapper">
+		<table class="sectionWelcome_table">
+			<thead class="sectionWelcome_tableHeader">
+			<tr>
+				<th>Time</th>
+				<th colspan="2">Stuff that will happen</th>	
+				</tr>
+				</thead>
+				<tr>
+				<td>10am - 12pm</td>
+				<td>Introduction and presentations about Envato<span class="sectionWelcome_tableHidden"><p>Meeting with guests</p><p>The introductory speech</p><p>The project presentation</p></span></td>
+				<td>
+					<a href=""><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+				</td>		
+				</tr>
+					<tr>
+				<td>12px - 02pm</td>
+				<td>Sessions by honorable guests and Speakers<span class="sectionWelcome_tableHidden"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p><p> Nullam sit amet massa quis felis viverra sollicitudin non sit</p><p> Cras eget sapien sed ligula finibus tincidunt quis at nibh</p></span></td>
+				<td>
+						<a href=""><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+				</td>		
+				</tr>
+					<tr>
+				<td>02pm - 03pm</td>
+				<td>Break and Mingle time with the authors<span class="sectionWelcome_tableHidden"><p>Maecenas finibus, erat in malesuada lacinia, diam quam efficitur urna, quis porttitor enim sapien non elit</p><p>Donec tempus sagittis congue</p></span></td>	
+				<td>
+					<a href=""><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+				</td>	
+				</tr>
+					<tr>
+				<td>03pm - 05pm</td>
+				<td>Portfolio Review, Rewards and Ending Presentation<span class="sectionWelcome_tableHidden"><p>Maecenas porttitor quam in arcu molestie, a blandit tellus faucibus</p><p>Proin gravida felis nunc, ut convallis lorem viverra a</p><p>Donec consectetur vel massa nec ultrices</p><p>Sed non consectetur felis</p></span></td>
+				<td>
+					<a href=""><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+				</td>	
+				</tr>
+		</table>
+		<p class="sectionWelcome_tableText">Please keep in mind that the timings may differ according to the flow of the event. The even is actually day long and we do plan to finish it within our set time but it doesn’t have to be, if we all agree to hangour for some time more, what harm could it do? :)</p>
+	</div>
+	</div>
+</div>
+		<div class="section sectionElite section_transform">
+	<div class="section_transformNot flex_row sectionElite_content">
+		<div class="sectionElite_logo"></div>
+		<div class="sectionElite_article section_article">
+			<h1 class="sectionElite_articleHeader">We reward the Elites!</h1>
+			<div class="sectionElite_text"><p>Are you an Elite author in the Envato Marketplaces? If so we are proud of you! We want to give our thanks in achieving great success in the marketplace and we want to make known to the people of our country that you are amazing! Our Elite gifting program includes giving you special merchandize from our community and also promote your works in our community.</p>
+			<p>All you have to do is contact us by clicking the button here and then its just going to the event, saying something motivational and taking that swag while looking amazing infront of thousands of other community members.</p>
+			<p>*Be advised, we will only give you Elite thank you swag for each level of elite you cross.<br>That means if you do not cross to the next elite level before the next event, you cannot claim your prizes.</p></div>
+			<a class="sectionElite_button button buttonLink button_themeSuccess sectionElite_buttonText sectionElite_trigger" href="#sectionElite_modal"> Bring on the swag!</a>
+		</div>
+	</div>
+	</div>
+		<div class="section sectionSpeakers section_transform" id="Speakers">
+			<div class="sectionSpeakers_content section_transformNot">
+				<div class="sectionSpeakers_article section_article">
+					<h1 class="sectionSpeakers_articleHeader">Speakers</h1>
+					<div class="sectionSpeakers_text"><p>Meet our Valuable speakers who will be each giving 10 minutes sessions on different subjects regarding being a digital product author, working at envato and marketing your business.<br>Hope you will have a great time listening to our presentations!</p></div>
+				</div>
+				<div class="sectionSpeakers_box flex_row">
+					<div class="sectionSpeakers_item"></div>
+					<div class="sectionSpeakers_item sectionSpeakers_squarePattern">
+						<h2 class="sectionSpeakers_squareHeader">Shahriyer<br> Shuvo</h2>
+						<hr>
+						<div class="sectionSpeakers_squareText"><p>More about selling in the Envato Marketplaces</p></div>
+						<div class="sectionSpeakers_squareBox">
+							<div class="sectionSpeakers_squareIcon">
+								<a href="#" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
+							<div class="sectionSpeakers_squareIcon">
+								<a href="#" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							</div>
+							<div class="sectionSpeakers_squareIcon">
+								<a href="#" title="Behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
+							</div>
+							<div class="sectionSpeakers_squareIcon">
+								<a href="#" title="Dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="sectionSpeakers_item"></div>
+					<div class="sectionSpeakers_item"></div>
+					<div class="sectionSpeakers_item sectionSpeakers_itemImage"></div>
+					<div class="sectionSpeakers_item"></div>
+					<div class="sectionSpeakers_item"></div>
+					<div class="sectionSpeakers_item"></div>
+					<div class="sectionSpeakers_item"></div>
+				</div>
+			</div>
+		</div>
+		<div class="section sectionSponsors section_transform" id="Sponsors">
+			<div class="sectionSponsors_content section_transformNot">
+				<div class="sectionSponsors_article section_article">
+					<h1 class="sectionSponsors_articleHeader">Sponsor Our Event!</h1>
+					<div class="sectionSponsors_text"><p>If you want to help us making this event lively and successful, help us by sponsoring our event!<br>This will help us bring in more people, have better livestreaming equipment, maybe even our own chef!<br>You can also sponsor us by giving away free swag at the event!</p>
+					<p>Here’s who have sponsored us already:</p></div>
+				</div>
+				<div class="sectionSponsors_boxLogo flex_row">
+					<div class="sectionSponsors_logoImage sectionSponsors_logoMountain"></div>
+					<div class="sectionSponsors_logoImage sectionSponsors_logoS"></div>
+					<div class="sectionSponsors_logoImage sectionSponsors_logoEnvato"></div>
+				</div>
+				<a class="sectionSponsors_button button button_themeSuccess buttonLink buttonLinkText sectionSponsors_trigger" href="#sectionSponsors_modal">Sponsor Us</a>
+			</div>
+		</div>
+		<div class="section sectionEvents section_transform" id="Past_Events">
+			<div class="sectionEvents_content section_transformNot">
+				<div class="sectionEvents_article section_article">
+					<h1 class="sectionEvents_articleHeader">Past Events</h1>
+					<div class="sectionEvents_text"><p>Check out the photos of our previous events where we rocked with a lot of Famous and enthusiatic authors! We’re always planning to make our future events feel fresh and fun to be at. :)</p></div>
+				</div>
+				<div class="sectionEvents_boxPhoto flex_row">
+					<div class="sectionEvents_photo sectionEvents_photoFirst"></div>
+					<div class="sectionEvents_photo sectionEvents_photoSecond"></div>
+					<div class="sectionEvents_photo sectionEvents_photoThird"></div>
+					<div class="sectionEvents_photo sectionEvents_photoFourth"></div>
+				</div>
+				<a class="sectionEvents_button button buttonLink buttonLinkText button_themeInverse sectionEvents_trigger" href="#sectionEvents_modal">View More</a>
+			</div>
+		</div>
+		<div class="section sectionContact" id="Contact">
+			<div class="sectionContact_wrapper flex_row">
+				<div class="sectionContact_info flex_column">
+					<div class="sectionContact_logo"></div>
+					<div class="sectionContact_text"><p>Lorem Ipsum Avenue, 420/2 elm street, Melbourne, Sydney - 2122, Kingdom of Australia</p></div>
+					<a class="sectionContact_button button buttonLink buttonLinkText button_themeSuccess sectionContact_trigger" href="#sectionContact_modalMap">View Map</a>
+				</div>
+				<div class="sectionContact_formWrapper flex_column">
+				<form class="sectionContact_form" method="post" action="php/send_message.php">
+							<input type="email" class="form-control" name="email" required placeholder="Enter your email">
+							<textarea class="form-control form-text" name="message" required placeholder="Type your message"></textarea>
+							<button type="submit" class="sectionContact_formSubmit button buttonSubmit button_themeInverse buttonLinkText">Send Message</button>
+						</form>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer_wrapper flex_row">
+				<div class="footer_info flex_column">
+					<div class="footer_infoBox flex_row">
+						<div class="footer_infoIcon"><a href="#" title="Facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></div>
+						<div class="footer_infoIcon"><a href="#" title="Twitter"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></div>
+						<div class="footer_infoIcon"><a href="#" title="Linkedin"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></div>
+						<div class="footer_infoIcon"><a href="#" title="Google+"><i class="fa fa-2x fa-google-plus" aria-hidden="true"></i></a></div>
+						<div class="footer_infoIcon"><a href="#" title="Tumblr"><i class="fa fa-tumblr fa-2x" aria-hidden="true"></i></a></div>
+					</div>
+					<div class="footer_text"><p>Hope we see you at the event!</p>
+					<p>All Rights Reserved. Envato Bangladesh © 2015</p></div>
+				</div>
+				<div class="footer_goUp">
+					<a href="#Header"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+		<script src="js/swiper.min.js" type="text/javascript"></script>
+		<script src="js/iziModal.min.js" type="text/javascript"></script>
+	  <script src="js/count_date.js" type="text/javascript"></script>
+	  <script src="js/table_script.js" type="text/javascript"></script>
+	  <script src="js/swiper_slider.js" type="text/javascript"></script>
+	  <script src="js/sectionWelcome_form.js" type="text/javascript"></script>
+	  <script src="js/sectionSponsors_modalForm.js" type="text/javascript"></script>
+	  <script src="js/sectionElite_modalForm.js" type="text/javascript"></script>
+	  <script src="js/sectionContact_form.js" type="text/javascript"></script>
+	  <script src="js/izi_sectionContact_modal.js" type="text/javascript"></script>
+	   <script src="js/izi_sectionElite_modal.js" type="text/javascript"></script>
+	    <script src="js/izi_sectionSponsors_modal.js" type="text/javascript"></script>
+	     <script src="js/izi_sectionEvents_modal.js" type="text/javascript"></script>
+</body>
+</html>
