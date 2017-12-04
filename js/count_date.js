@@ -18,13 +18,13 @@
 		if (days < 10) {
 			days = "0" + days;
 		}
-		$(".days").html("<p>" + days + "</p>" + "<p>" + "days" + "</p>");
-		$(".hours").html("<p>" + hours + "</p>" + "<p>" + "hours" + "</p>");
-		$(".minutes").html("<p>" + minutes + "</p>" + "<p>" + "minutes" + "</p>");
-		$(".seconds").html("<p>" + seconds + "</p>" + "<p>" + "seconds" + "</p>");
+		$(".header_timerItem-days").html("<p>" + days + "</p>" + "<p>" + "days" + "</p>");
+		$(".header_timerItem-hours").html("<p>" + hours + "</p>" + "<p>" + "hours" + "</p>");
+		$(".header_timerItem-minutes").html("<p>" + minutes + "</p>" + "<p>" + "minutes" + "</p>");
+		$(".header_timerItem-seconds").html("<p>" + seconds + "</p>" + "<p>" + "seconds" + "</p>");
 		
 		if (distance < 0) {
 			
 			clearInterval(x);
-			$("#countbg").hide()};
+			$(".header_timer").hide()};
 },1000);
